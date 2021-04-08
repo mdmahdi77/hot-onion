@@ -1,0 +1,77 @@
+.headerSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+.logo img{
+    width: 150px;
+    margin-top: 20px;
+}
+.navBar{
+   
+}
+.navBar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+.backgroundSection{
+    background-image: url(../../images/bannerbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.backgroundHeader{
+    text-align: center;
+    padding-top: 180px;
+}
+form{
+    display: inline-block;
+}
+form input[type=text]{
+    padding: 7px 5px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    background: white;
+    width: 350px;
+}
+form input[type=submit]{
+    padding: 7px 5px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    background: crimson;
+    width: 100px;
+    color: white;
+}
+.foodSection{
+    
+}
+.foodSection ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.foodSection ul li{
+    list-style: none;
+    margin: 40px;
+}
+.foodSection ul li a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: 700;
+}

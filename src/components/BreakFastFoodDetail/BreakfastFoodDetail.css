@@ -1,0 +1,36 @@
+.foodFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+}
+.foodDetailImg img{
+    height: 500px;
+}
+.foodDetailStyle{
+    margin-right: 60px;
+}
+.foodDetailStyle h2{
+    font-size: 50px;
+    color: green;
+}
+.foodDetailStyle p{
+    text-align: justify;
+    color: lightgray;
+}
+.foodDetailStyle h3{
+    color: gray;
+    font-size: 35px;
+}
+.mainBtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    background: crimson;
+    color: white;
+}
